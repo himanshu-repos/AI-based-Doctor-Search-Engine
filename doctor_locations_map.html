@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f5c26dff0184eee45a192252651601a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9f5c26dff0184eee45a192252651601a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9f5c26dff0184eee45a192252651601a = L.map(
+                "map_9f5c26dff0184eee45a192252651601a",
+                {
+                    center: [26.2183, 78.1828],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_be9c19f04b1d57d9e0e65e24b5c37b85 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_be9c19f04b1d57d9e0e65e24b5c37b85.addTo(map_9f5c26dff0184eee45a192252651601a);
+        
+    
+            var marker_113552d902a28264796935445a35e425 = L.marker(
+                [26.2785, 78.2245],
+                {}
+            ).addTo(map_9f5c26dff0184eee45a192252651601a);
+        
+    
+            var icon_4317f1895298b59699fcf0447cf6c5b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_113552d902a28264796935445a35e425.setIcon(icon_4317f1895298b59699fcf0447cf6c5b0);
+        
+    
+        var popup_0dc581f6f9f05c953e1fee90d1729dee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65bef7caa6223706ac4139f49aca5aa0 = $(`<div id="html_65bef7caa6223706ac4139f49aca5aa0" style="width: 100.0%; height: 100.0%;">Doctor: Akash gupta<br>Specialist: Hepatologist<br>Phone: (01632) 960 224<br>Address: House No. 65, Street No. 14, Gandhinagar, Gwalior<br>Pincode: 474018</div>`)[0];
+                popup_0dc581f6f9f05c953e1fee90d1729dee.setContent(html_65bef7caa6223706ac4139f49aca5aa0);
+            
+        
+
+        marker_113552d902a28264796935445a35e425.bindPopup(popup_0dc581f6f9f05c953e1fee90d1729dee)
+        ;
+
+        
+    
+    
+            var marker_00e5abb2801f62541ccfa0ad0b22612e = L.marker(
+                [26.275, 78.222],
+                {}
+            ).addTo(map_9f5c26dff0184eee45a192252651601a);
+        
+    
+            var icon_2f489c3a6ccc983f29cd6c866142c28e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00e5abb2801f62541ccfa0ad0b22612e.setIcon(icon_2f489c3a6ccc983f29cd6c866142c28e);
+        
+    
+        var popup_f1cc90d9c4ddf58fefcbc2d86da32c3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40ac041d37b43538f4431a91a8840d2e = $(`<div id="html_40ac041d37b43538f4431a91a8840d2e" style="width: 100.0%; height: 100.0%;">Doctor: Rijul aggarwal<br>Specialist: Hepatologist<br>Phone: 0115 4960823<br>Address: House No. 36, Street No. 16, Mahal Gao, Gwalior<br>Pincode: 474017</div>`)[0];
+                popup_f1cc90d9c4ddf58fefcbc2d86da32c3d.setContent(html_40ac041d37b43538f4431a91a8840d2e);
+            
+        
+
+        marker_00e5abb2801f62541ccfa0ad0b22612e.bindPopup(popup_f1cc90d9c4ddf58fefcbc2d86da32c3d)
+        ;
+
+        
+    
+    
+            var marker_836acc088d8368a8caa65a6e6c579457 = L.marker(
+                [26.275, 78.222],
+                {}
+            ).addTo(map_9f5c26dff0184eee45a192252651601a);
+        
+    
+            var icon_8b7fb775e25f00efed6c3338fa528b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_836acc088d8368a8caa65a6e6c579457.setIcon(icon_8b7fb775e25f00efed6c3338fa528b91);
+        
+    
+        var popup_7d7a1b99d780374da61b6bb93faab1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a542694cc9f59b1fcdcf16e092bb980c = $(`<div id="html_a542694cc9f59b1fcdcf16e092bb980c" style="width: 100.0%; height: 100.0%;">Doctor: Vansu dev<br>Specialist: Hepatologist<br>Phone: 01134960193<br>Address: House No. 86, Street No. 1, Mahal Gao, Gwalior<br>Pincode: 474017</div>`)[0];
+                popup_7d7a1b99d780374da61b6bb93faab1a1.setContent(html_a542694cc9f59b1fcdcf16e092bb980c);
+            
+        
+
+        marker_836acc088d8368a8caa65a6e6c579457.bindPopup(popup_7d7a1b99d780374da61b6bb93faab1a1)
+        ;
+
+        
+    
+    
+            var marker_7f166def4dc710b5476304173b9dba63 = L.marker(
+                [26.275, 78.222],
+                {}
+            ).addTo(map_9f5c26dff0184eee45a192252651601a);
+        
+    
+            var icon_267d6fd78a4ca9225a04e0d9f4c09f47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f166def4dc710b5476304173b9dba63.setIcon(icon_267d6fd78a4ca9225a04e0d9f4c09f47);
+        
+    
+        var popup_500aeea5b93fa7e85235814064a3b8fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c7e5dc5918f25120d5d8305682b0832 = $(`<div id="html_4c7e5dc5918f25120d5d8305682b0832" style="width: 100.0%; height: 100.0%;">Doctor: Amit kumar<br>Specialist: Endocrinologist<br>Phone: +44(0)161 4960982<br>Address: House No. 82, Street No. 43, Mahal Gao, Gwalior<br>Pincode: 474017</div>`)[0];
+                popup_500aeea5b93fa7e85235814064a3b8fc.setContent(html_4c7e5dc5918f25120d5d8305682b0832);
+            
+        
+
+        marker_7f166def4dc710b5476304173b9dba63.bindPopup(popup_500aeea5b93fa7e85235814064a3b8fc)
+        ;
+
+        
+    
+</script>
+</html>
